@@ -42,6 +42,7 @@ node {
         echo "Application build and testing completed successfully."
     }
 }
+    // Test
 catch (Exception e) {
     echo "An error occurred: ${e.getMessage()}"
     currentBuild.result = 'FAILURE'
